@@ -1,6 +1,10 @@
 <ion-header>
   <ion-toolbar>
-    <ion-title class="ion-text-center">Authorization</ion-title>
+    <ion-buttons>
+      <ion-back-button></ion-back-button>
+      <ion-title>Sign Up</ion-title>
+    </ion-buttons>
+    
   </ion-toolbar>
 </ion-header>
 
@@ -16,6 +20,11 @@
       <ion-label>Password</ion-label>
       <ion-input type="password"></ion-input>
     </ion-item>
+
+    <ion-item>
+      <ion-label>Confirm</ion-label>
+      <ion-input type="password"></ion-input>
+    </ion-item>
   </ion-list>
 
   <ion-toolbar>
@@ -25,10 +34,5 @@
       </ion-button>
     </ion-buttons>
   </ion-toolbar>
-
-  <ion-list style="text-align: center;">
-    <ion-button fill="clear" class="ion-text-center" routerLink="/register">Sign up</ion-button>
-  </ion-list>
-  
 
 </ion-content>
